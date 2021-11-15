@@ -666,18 +666,6 @@ ul {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-/* карточка на портфолио -->
-transform-translateX/Y (? / -100%)
-у нас заезжает снизу (целый див будет 
-заезжать)
-анимируем: transition: transform 250ms ...
-overflow-hidden на карточку
-absolut-position есть
-relative-относительно обертки картинки 
-delay-чтобы сделать сценарий
-кубик-для красоты
-scale-для масштабирования
-translate-откуда будет выезжать */
 
 .service-main {
   margin-bottom: 30px;
@@ -827,9 +815,3 @@ translate-откуда будет выезжать */
   background: var(--white-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
-
-/* @keyframes modal {
-  50% {
-    transform: scale(1.25);
-  }
-} */
